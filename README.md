@@ -1,2 +1,4 @@
-# Fortnavi_Profiles
-todo make adaptive for phones
+### Fortnavi_Profiles
+- [x] create 1st version of profile
+- [ ] make adaptive for phones
+- [ ] fix BEM?
