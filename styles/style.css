@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: lightgray;
+    font-size: 1rem;
+    font-family: Verdana, sans-serif;
+}
+
+
+.main-section {
+    max-width: 1200px;
+    display: flex;
+}
+
+.profile-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid black;
+    border-bottom: 5px solid greenyellow;
+
+}
+
+.member-info {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.member-items, .member-items-description {
+    margin-top: 45px;
+    font-size: 0.8rem;
+}
+
+.main-section__member-content-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 769px) {
+    .main-section {
+        display: block;
+        text-align: center;
+    }
+}
