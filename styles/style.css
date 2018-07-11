@@ -1,16 +1,17 @@
-html, body {
+body {
     margin: 0;
     padding: 0;
-    height: 100%;
     background-color: lightgray;
     font-size: 1rem;
-    font-family: Verdana, sans-serif;
+    font-family: SansSerif, sans-serif;
 }
 
 
 .main-section {
     max-width: 1200px;
     display: flex;
+    margin: auto;
+
 }
 
 .profile-img {
@@ -39,9 +40,9 @@ html, body {
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 769px) {
-    .main-section {
-        display: block;
-        text-align: center;
-    }
-}
+/*@media only screen and (max-width: 769px) {*/
+    /*.main-section {*/
+        /*display: block;*/
+        /*text-align: center;*/
+    /*}*/
+/*}*/
