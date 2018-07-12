@@ -7,8 +7,7 @@ html, body {
     font-family: Verdana, sans-serif;
 }
 
-
-.main-section {
+.profile {
     max-width: 1200px;
     display: flex;
 }
@@ -34,14 +33,14 @@ html, body {
     font-size: 0.8rem;
 }
 
-.main-section__member-content-two {
+.profile__member-content-two {
     display: flex;
     justify-content: space-between;
 }
 
-@media only screen and (max-width: 769px) {
-    .main-section {
-        display: block;
-        text-align: center;
-    }
-}
+/*@media only screen and (max-width: 769px) {*/
+    /*.main-section {*/
+        /*display: block;*/
+        /*text-align: center;*/
+    /*}*/
+/*}*/
